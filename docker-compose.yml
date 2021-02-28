@@ -17,7 +17,7 @@ services:
       - lan
 
   akaunting:
-    image: <your_image_tag_here>
+    image: akaunting/akaunting:latest
     container_name: $AKAUNTING_CONTAINER
     ports:
       - $VIRTUAL_PORT:80
